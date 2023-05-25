@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculatrice JQuery</title>
+</head>
+
+<body>
+    <div class="calculatrice">
+
+        <!--? ecran de la calculatrice -->
+        <input type="text" class="screen" value="" readonly>
+
+        <!--? premiere ligne de la calculatrice -->
+        <div>
+            <button class="effacer">AC</button>
+            <button class="calc-btn" id="opt">&#43;&#47;&#8722;</button> 
+            <button class="calc-btn" id="opt">&#37;</button>
+            <button class="calc-btn" id="opt">&sol;</button>
+        </div>
+
+        <!--? deuxieme ligne de la calculatrice -->
+        <div>
+            <button class="calc-btn">7</button>
+            <button class="calc-btn">8</button>
+            <button class="calc-btn">9</button>
+            <button class="calc-btn" id="opt">&ast;</button>
+        </div>
+
+        <!--? troisieme ligne de la calculatrice -->
+
+        <div>
+            <button class="calc-btn">4</button>
+            <button class="calc-btn">5</button>
+            <button class="calc-btn">6</button>
+            <button class="calc-btn" id="opt">&#x2D;</button>
+        </div>
+
+        <!--? quatrieme ligne de la calculatrice -->
+
+        <div>
+            <button class="calc-btn">1</button>
+            <button class="calc-btn">2</button>
+            <button class="calc-btn">3</button>
+            <button class="calc-btn" id="opt">&#43;</button>
+        </div>
+
+        <!--? derniere ligne de la calculatrice -->
+
+        <div>
+            <button class="calc-btn">0</button>
+            <button class="calc-btn">.</button>
+            <button class="back">&#9003;</button>
+            <button class="egal">&#61;</button>
+        </div>
+
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script src="./script.js"></script>
+</html>
